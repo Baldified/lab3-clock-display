@@ -61,3 +61,7 @@ ANSWERS
 
 33.  Only the first negative number affects the result.
 
+34. -4, -3, -2, -1, 0, 1, 2, 3, 4.
+
+35. every number is a possible result except for m = 0.
+
