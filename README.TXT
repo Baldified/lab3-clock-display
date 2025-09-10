@@ -23,3 +23,26 @@ Everything else could be pretty much the same.
 
 
 Note: This project does not implement adequate handling of errors.
+
+
+
+
+ANSWERS
+
+
+21. Because there was no parameter to set a value therefore it is set to the default of 00:00.
+
+23. You would need to call timeClick 60 times or call setTime and put hours to 1 and minutes to 0.
+
+24. NumberDisplay digit = new NumberDisplay(10);
+
+25. Rectangle window = new Rectangle(15 , 100);
+
+26. The 2nd constructor to ClockDisplay lets you choose what hour and minute you want to set the clock to by utilizing the source code in the NumberDisplay class.
+
+27. The 2 constructors have similarities because they both create 2 NumberDisplays for hours and minutes.
+    The 2 constructors have differences because one does not allow you to set a time and the other does, also the one without the option to set the time has to use updateDisplay to set the time to a default of 00:00
+
+28. p1.print("File3", true);
+    p1.getStatus(3)
+
