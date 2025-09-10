@@ -46,3 +46,18 @@ ANSWERS
 28. p1.print("File3", true);
     p1.getStatus(3)
 
+29. Square
+    Triangle
+    Circle
+
+30. roof.changeSize(60, 180);
+    roof.moveHorizontal(20);
+    roof.moveVertical(-60);
+    roof.makeVisible();
+
+31. Yes, drawn = true;
+
+32. 2
+
+33.  Only the first negative number affects the result.
+
