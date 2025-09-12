@@ -25,10 +25,13 @@ public class ClockDisplay
     {
         hours = new NumberDisplay(13);
         minutes = new NumberDisplay(60);
+        if(hours.getValue() == 0) {
+            hours.increment();
+        }
         updateDisplay();
     }
 
-    /**
+     /**
      * Constructor for ClockDisplay objects. This constructor
      * creates a new clock set at the time specified by the 
      * parameters.
@@ -49,6 +52,10 @@ public class ClockDisplay
         minutes.increment();
         if(minutes.getValue() == 0) {
             // It just rolled over!
+            hours.increment();
+        }
+        
+        if(hours.getValue() == 0) {
             hours.increment();
         }
         updateDisplay();
