@@ -41,6 +41,10 @@ public class ClockDisplay
         hours = new NumberDisplay(13);
         minutes = new NumberDisplay(60);
         setTime(hour, minute);
+        if(hours.getValue() == 0) {
+            hours.increment();
+            updateDisplay();
+        }
     }
 
     /**
